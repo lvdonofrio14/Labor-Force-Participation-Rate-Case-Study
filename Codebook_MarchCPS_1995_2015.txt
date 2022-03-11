@@ -1,0 +1,31 @@
+Description: Data for RA test
+Samples selected:
+      ASEC 1995                              regular
+      ASEC 2015                              regular
+File Type:                    rectangular
+
+ WTSUPP		Supplement Weight
+The CPS samples are weighted, with some records representing more cases than others. 
+This means that persons and households with some characteristics are over-represented in the samples, while others are underrepresented.
+To obtain representative statistics from the samples, users must apply sample weights.
+
+ AGE		Age
+Top codes:
+1988-2001: 90+ coded as 90 
+2002-2003: 80+ coded as 80 
+2004-onward: 80-84 coded as 80, 85+ coded as 85
+
+ SEX		Sex
+1		Male
+2		Female
+9		Not in universe
+
+ POPSTAT	Adult civilian, armed forces, or child
+1		Adult civilian
+2		Armed forces
+3		Child
+
+ LABFORCE	Labor force status
+0		Not in universe
+1		No, not in the labor force
+2		Yes, in the labor force
